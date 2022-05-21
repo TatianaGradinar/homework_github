@@ -1,10 +1,12 @@
 * {
   box-sizing: border-box;
 }
+
 body {
   margin: 0;
   font-family: "Roboto", sans-serif;
 }
+
 h1,
 h2,
 h3,
@@ -14,6 +16,7 @@ h6 {
   font-family: "Roboto Slab", serif;
   text-align: center;
 }
+
 h3,
 h4,
 h5,
@@ -21,6 +24,7 @@ h6 {
   font-weight: 800;
   font-size: 1.5rem;
 }
+
 .container {
   margin-left: auto;
   margin-right: auto;
@@ -28,6 +32,7 @@ h6 {
   padding-right: 20px;
   max-width: 1280px;
 }
+
 .content {
   background-color: whitesmoke;
   margin-bottom: 100px;
@@ -36,9 +41,11 @@ h6 {
   font-size: 16px;
   padding: 1em;
 }
+
 .pagename {
   color: rgb(13, 100, 10);
 }
+
 .navbar-top-list {
   margin: 2px;
   padding: 2px;
@@ -47,6 +54,7 @@ h6 {
   justify-content: center;
   gap: 30px;
 }
+
 .navbar-top-link {
   display: block;
   padding: 1em 1em;
@@ -57,11 +65,13 @@ h6 {
   transition: 0.3s;
   text-decoration: none;
 }
+
 .navbar-top-link:hover {
   background-color: #c20e14;
   color: white;
   transform: scale(1.2);
 }
+
 .wallpaper {
   position: fixed;
   top: 0;
@@ -69,7 +79,7 @@ h6 {
   left: 0;
   right: 0;
   z-index: -1;
-  background-image: url(../lesson_3/photo/cr5.jpeg);
+  background-image: url(photo/cr5.jpeg);
   background-color: rgb(227, 230, 231);
   background-repeat: no-repeat;
   background-size: contain;
@@ -77,6 +87,7 @@ h6 {
   background-position-y: 50%;
   background-size: cover;
 }
+
 .wallpaper2 {
   position: fixed;
   top: 0;
@@ -84,13 +95,14 @@ h6 {
   left: 0;
   right: 0;
   z-index: -1;
-  background-image: url(../lesson_3/photo/backgroundimage.jpg);
+  background-image: url(photo/backgroundimage.jpg);
   background-repeat: no-repeat;
   background-size: contain;
   background-position-x: 50%;
   background-position-y: 50%;
   background-size: cover;
 }
+
 .wallpaper3 {
   position: fixed;
   top: 0;
@@ -98,9 +110,10 @@ h6 {
   left: 0;
   right: 0;
   z-index: -1;
-  background-image: url(../lesson_3/photo/текстуракожа.jpg);
+  background-image: url(photo/текстуракожа.jpg);
   background-repeat: repeat;
 }
+
 .footer {
   color: rgb(0, 0, 0);
   margin-bottom: 0;
@@ -113,6 +126,7 @@ h6 {
   text-align: center;
   position: fixed;
 }
+
 .footer-text {
   padding: 5px;
   max-width: 1280px;
@@ -129,10 +143,12 @@ h6 {
   border: 20px solid red;
   margin: 10px;
 }
+
 .container--gallery {
   display: flex;
   justify-content: space-around;
 }
+
 .new::after {
   content: "NEW";
   background: red;
@@ -141,8 +157,9 @@ h6 {
   padding: 4px;
   margin-left: 4px;
 }
+
 .sublist {
-  list-style: outside url(../lesson_3/photo/iconshoes.png);
+  list-style: outside url(photo/iconshoes.png);
   font-size: 15px;
   background-color: rgb(52, 165, 42);
   color: rgb(2, 2, 2);
@@ -151,7 +168,7 @@ h6 {
 }
 
 .list-catalog {
-  list-style: outside url(../lesson_3/photo/iconmark.png);
+  list-style: outside url(photo/iconmark.png);
   font-size: 18px;
   background-color: rgb(216, 212, 212);
   color: brown;
@@ -162,6 +179,7 @@ h6 {
   padding: 1em 2em 1em;
   margin: 2em;
 }
+
 .articles-list {
   padding: 5px;
   margin: 10px;
@@ -170,6 +188,7 @@ h6 {
   flex-wrap: wrap;
   gap: 20px;
 }
+
 .articles-link {
   background-color: rgb(248, 247, 247);
   padding: 1%;
@@ -180,33 +199,41 @@ h6 {
   transition: 0.3s;
   color: rgb(13, 100, 10);
 }
+
 .articles-link:hover {
   background-color: #c20e14;
   color: white;
   transform: scale(1.2);
 }
+
 .articles-comment {
   color: green;
 }
+
 .articles-comment:hover {
   color: red;
 }
+
 .new-articles-read {
   color: green;
   font-weight: 500;
   transition: 0.5s;
 }
+
 .new-articles-read:hover {
   color: red;
 }
+
 .new-articles-link {
   border-bottom: 0.7px solid white;
   color: red;
 }
+
 .new-articles {
   font-family: Georgia, "Times New Roman", Times, serif;
   font-weight: 800;
 }
+
 .p-articles::first-letter {
   color: brown;
   font-size: 20px;
@@ -217,6 +244,7 @@ h6 {
   padding: 10px;
   margin-right: 10px;
 }
+
 .contacts {
   text-align: center;
 }
